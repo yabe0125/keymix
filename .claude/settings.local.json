@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($lines = Get-Content \"C:\\\\Users\\\\zen\\\\.claude\\\\projects\\\\c--Users-zen-keyboard-config\\\\357bffdf-20c7-4a51-ba87-2197b1638be9.jsonl\"; $lines.Count)",
+      "PowerShell(New-Item -ItemType Directory -Force -Path \"C:\\\\Users\\\\zen\\\\keyboard-config\\\\src\")",
+      "Bash(cargo build *)"
+    ]
+  }
+}
